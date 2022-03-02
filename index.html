@@ -5,8 +5,39 @@
     <title>Formulario</title>
 </head>
 <body>
-    <h1>HOLA</h1>
-    <p>Esto es una prueba.</p>
+    <h1>Formulario</h1>
     <a href="http://www.w3schools.com">Tutorial HTML</a>
+    <form action="" >
+        <p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" required name="nombre" id="nombre"  autocomplete="given-name"/>
+        </p>
+        <p>
+        <label for="apellido">Primer Apellido:</label>
+        <input type="text" required name="apellido" id="apellido" autocomplete="family-name"/>
+        </p>
+        <p>
+        <label for="fechanacimiento">Fecha de Nacimiento:</label>
+        <input type="date" required name="fechanacimiento" id="fechanacimiento" autocomplete="bday"/>
+        </p>
+        <p>
+        <label for="email">E-mail:</label>
+        <input type="text" required name="email" id="email" autocomplete="email" placeholder="name@email.com"/>
+        </p>
+        <p>
+        <label for="telefono">Telefono:</label>
+        <input type="text" required name="telefono" id="telefono" autocomplete="tel" placeholder="123-456-789"/>
+        </p>
+        <p>
+        <label for="password">Password:</label>
+        <input type="password" required name="password" id="password" autocomplete="new-password" placeholder="***"/>
+        </p>
+        <p>
+        <label for="color">Color Favorito:</label>
+        <input type="text" required name="color" id="color"/>
+        </p>
+        <input type="submit" value="Submit" />
+    </form>
+        
 </body>
 </html>
